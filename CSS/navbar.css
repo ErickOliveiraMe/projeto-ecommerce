@@ -6,7 +6,7 @@
     justify-content: space-between;
     align-items: center;
     background: black;
-    padding: 20px 30px;
+    padding: 30px;
     color: #333;
     position: fixed;
     top: 0;
@@ -31,6 +31,7 @@
     display: flex;
     gap: 45px;
     margin: 0;
+    margin-right: 30%;
 }
 
 .navbar-links li a {
@@ -41,7 +42,7 @@
 }
 
 .navbar-links li a:hover {
-    color: #0074cc;
+    color: #57534D;
 }
 
 /* Botão de menu hambúrguer */

@@ -4,36 +4,19 @@ document.addEventListener('DOMContentLoaded', function () {
     const navbar = document.querySelector('.navbar');
 
     // Função para fechar o menu com animação
-    window.closeMenu = function () {
-        if (!navLinks.classList.contains('active')) return;
+   window.closeMenu = function () {
+    if (!navLinks.classList.contains('active')) return;
 
-        navLinks.classList.remove('active');
-        navLinks.classList.add('closing');
-        document.body.style.overflow = 'auto';
-
-        setTimeout(() => {
-            navLinks.classList.remove('closing');
-            navLinks.style.display = 'none';
-        }, 300); // tempo da animação
-    };
+    navLinks.classList.remove('active');
+    document.body.style.overflow = 'auto';
+};
 
     // aTIVA o botão hamburguer
     toggleButton.addEventListener('click', function (e) {
-        e.stopPropagation();
-        const isOpening = !navLinks.classList.contains('active');
-
-        if (isOpening) {
-            navLinks.style.display = 'flex';
-            requestAnimationFrame(() => {
-                navLinks.classList.add('active');
-                navLinks.classList.remove('closing');
-            });
-            document.body.style.overflow = 'hidden';
-            navbar.classList.remove('hide');
-        } else {
-            closeMenu();
-        }
-    });
+    e.stopPropagation();
+    navLinks.classList.toggle('active');
+    document.body.style.overflow = navLinks.classList.contains('active') ? 'hidden' : 'auto';
+});
 
     // Fecha o menu ao clicar fora
     document.addEventListener('click', function (e) {
