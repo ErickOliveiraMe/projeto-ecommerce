@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja - Catálogo</title>
+    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="stylesheet" href="CSS/camisetas.css">
+    <link rel="stylesheet" href="CSS/conjuntos.css">
+    <link rel="stylesheet" href="CSS/navbar.css">
+    <link rel="stylesheet" href="CSS/shorts.css">
+    <link rel="stylesheet" href="CSS/sneakers.css">
+    <link rel="stylesheet" href="CSS/sobreposicao.css">
+    <link rel="stylesheet" href="CSS/calcas.css">
+</head>
+<body>
+        
+    <div id="navbar"></div>
+    <div id="camisetas"></div>
+    <div id="calcas"></div>
+    <div id="conjuntos"></div>
+    <div id="shorts"></div>
+    <div id="sobreposicao"></div>
+    <div id="sneakers"></div>
+    <div id="footer"></div>
+  
+    <script>
+      const sections = [
+        { id: "navbar", url: "./Components/navbar.html" },
+        { id: "carrosel", url: "./Components/camisetas.html" },
+        { id: "info", url: "./Components/conjuntos.html" },
+        { id: "importancia", url: "./Components/shorts.html" },
+        { id: "parceiros", url: "./Components/sneakers.html" },
+        { id: "parceiros", url: "./Components/calcas.html" },
+        { id: "localizacao", url: "./Components/sobreposicao.html" },
+        { id: "footer", url: "./Components/footer.html" },
+      ];
+  
+      sections.forEach(section => {
+        fetch(section.url)
+          .then(res => res.text())
+          .then(html => {
+            document.getElementById(section.id).innerHTML = html;
+          });
+      });
+    </script>
+
+
+</body>
+</html>
