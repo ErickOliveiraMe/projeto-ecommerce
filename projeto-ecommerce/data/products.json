@@ -1,0 +1,281 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Air Jordan 1 Low Laranja",
+      "price": 599.00,
+      "description": "O Air Jordan 1 Low Laranja é um tênis icônico que combina estilo e conforto. Feito com materiais de alta qualidade, este modelo apresenta a clássica silhueta Air Jordan 1 em uma versão low-top com detalhes em laranja vibrante. Perfeito para uso casual e para complementar seu visual streetwear.",
+      "category": "Sneakers",
+      "images": [
+        "images/product1.jpg",
+        "images/product1.jpg",
+        "images/product1.jpg"
+      ],
+      "sizes": ["38", "39", "40", "41", "42"],
+      "colors": [
+        {"name": "Laranja", "code": "#FF5733"},
+        {"name": "Preto", "code": "#000000"},
+        {"name": "Branco", "code": "#FFFFFF"}
+      ],
+      "stock": 15,
+      "featured": true
+    },
+    {
+      "id": 2,
+      "name": "Air Jordan 1 Low Mocha",
+      "price": 599.00,
+      "description": "O Air Jordan 1 Low Mocha apresenta uma combinação elegante de cores em tons terrosos. Com acabamento premium e detalhes em marrom mocha, este tênis é versátil e combina com diversos estilos. A entressola Air proporciona amortecimento excepcional para o dia a dia.",
+      "category": "Sneakers",
+      "images": [
+        "images/product2.jpg",
+        "images/product2.jpg",
+        "images/product2.jpg"
+      ],
+      "sizes": ["38", "39", "40", "41", "42"],
+      "colors": [
+        {"name": "Mocha", "code": "#6F4E37"},
+        {"name": "Preto", "code": "#000000"},
+        {"name": "Branco", "code": "#FFFFFF"}
+      ],
+      "stock": 10,
+      "featured": true
+    },
+    {
+      "id": 3,
+      "name": "Conjunto Trapstar",
+      "price": 399.00,
+      "description": "Conjunto completo da marca Trapstar, incluindo camiseta e shorts combinando. Confeccionado em algodão de alta qualidade com estampa exclusiva da marca. Perfeito para um visual urbano e confortável.",
+      "category": "Conjuntos",
+      "images": [
+        "images/product3.jpg",
+        "images/product3.jpg",
+        "images/product3.jpg"
+      ],
+      "sizes": ["P", "M", "G", "GG"],
+      "colors": [
+        {"name": "Branco", "code": "#FFFFFF"},
+        {"name": "Preto", "code": "#000000"},
+        {"name": "Cinza", "code": "#808080"}
+      ],
+      "stock": 8,
+      "featured": false
+    },
+    {
+      "id": 4,
+      "name": "Conjunto Trapstar Preto/Cinza",
+      "price": 399.00,
+      "description": "Conjunto Trapstar na combinação preto e cinza, com logo bordado e acabamento premium. Tecido macio e confortável, ideal para o dia a dia com estilo streetwear autêntico.",
+      "category": "Conjuntos",
+      "images": [
+        "images/product4.jpg",
+        "images/product4.jpg",
+        "images/product4.jpg"
+      ],
+      "sizes": ["P", "M", "G", "GG"],
+      "colors": [
+        {"name": "Preto", "code": "#000000"},
+        {"name": "Cinza", "code": "#808080"},
+        {"name": "Cinza Escuro", "code": "#333333"}
+      ],
+      "stock": 12,
+      "featured": false
+    },
+    {
+      "id": 5,
+      "name": "Touca Synaworld Preta/Verde",
+      "price": 129.00,
+      "description": "Touca Synaworld em preto com detalhes em verde neon. Confeccionada em material macio e elástico que proporciona conforto e aquecimento. Logo bordado em destaque.",
+      "category": "Acessórios",
+      "images": [
+        "images/product5.jpg",
+        "images/product5.jpg",
+        "images/product5.jpg"
+      ],
+      "sizes": ["Único"],
+      "colors": [
+        {"name": "Preto/Verde", "code": "#000000"},
+        {"name": "Verde Neon", "code": "#00FF00"}
+      ],
+      "stock": 20,
+      "featured": false
+    },
+    {
+      "id": 6,
+      "name": "Touca Synaworld Preto/Cinza",
+      "price": 129.00,
+      "description": "Touca Synaworld na combinação preto e cinza, perfeita para os dias mais frios. Material de alta qualidade com elasticidade e durabilidade.",
+      "category": "Acessórios",
+      "images": [
+        "images/product6.jpg",
+        "images/product6.jpg",
+        "images/product6.jpg"
+      ],
+      "sizes": ["Único"],
+      "colors": [
+        {"name": "Preto", "code": "#000000"},
+        {"name": "Cinza", "code": "#808080"}
+      ],
+      "stock": 15,
+      "featured": false
+    },
+    {
+      "id": 7,
+      "name": "Boné Synaworld Cinza",
+      "price": 159.00,
+      "description": "Boné Synaworld em cinza com aba curva e ajuste snapback. Logo bordado em relevo e acabamento premium. Perfeito para complementar seu visual streetwear.",
+      "category": "Acessórios",
+      "images": [
+        "images/product7.jpg",
+        "images/product7.jpg",
+        "images/product7.jpg"
+      ],
+      "sizes": ["Único"],
+      "colors": [
+        {"name": "Cinza", "code": "#808080"},
+        {"name": "Preto", "code": "#000000"}
+      ],
+      "stock": 10,
+      "featured": false
+    },
+    {
+      "id": 8,
+      "name": "Dunk Low Cacao Wow",
+      "price": 549.00,
+      "description": "O Nike Dunk Low Cacao Wow apresenta uma combinação única de cores em tons de marrom e bege. Confeccionado em couro premium com detalhes em camurça, este tênis oferece conforto e estilo inigualáveis.",
+      "category": "Sneakers",
+      "images": [
+        "images/product8.jpg",
+        "images/product8.jpg",
+        "images/product8.jpg"
+      ],
+      "sizes": ["38", "39", "40", "41", "42"],
+      "colors": [
+        {"name": "Marrom", "code": "#6F4E37"},
+        {"name": "Bege", "code": "#D2B48C"},
+        {"name": "Branco", "code": "#FFFFFF"}
+      ],
+      "stock": 8,
+      "featured": true
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Conjuntos",
+      "slug": "conjuntos"
+    },
+    {
+      "id": 2,
+      "name": "Calças",
+      "slug": "calcas"
+    },
+    {
+      "id": 3,
+      "name": "Shorts",
+      "slug": "shorts"
+    },
+    {
+      "id": 4,
+      "name": "Camisetas",
+      "slug": "camisetas"
+    },
+    {
+      "id": 5,
+      "name": "Jaquetas",
+      "slug": "jaquetas"
+    },
+    {
+      "id": 6,
+      "name": "Moletons",
+      "slug": "moletons"
+    },
+    {
+      "id": 7,
+      "name": "Sneakers",
+      "slug": "sneakers"
+    },
+    {
+      "id": 8,
+      "name": "Acessórios",
+      "slug": "acessorios"
+    }
+  ],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Nike",
+      "logo": "images/brand1.png"
+    },
+    {
+      "id": 2,
+      "name": "Jordan",
+      "logo": "images/brand2.png"
+    },
+    {
+      "id": 3,
+      "name": "Adidas",
+      "logo": "images/brand3.png"
+    },
+    {
+      "id": 4,
+      "name": "Trapstar",
+      "logo": "images/brand4.png"
+    }
+  ],
+  "cart": {
+    "items": [
+      {
+        "product_id": 1,
+        "quantity": 1,
+        "size": "40",
+        "color": "Laranja",
+        "price": 599.00
+      },
+      {
+        "product_id": 3,
+        "quantity": 1,
+        "size": "M",
+        "color": "Preto",
+        "price": 399.00
+      }
+    ],
+    "subtotal": 998.00,
+    "shipping": 25.00,
+    "discount": 0.00,
+    "total": 1023.00
+  },
+  "shipping_methods": [
+    {
+      "id": 1,
+      "name": "Entrega Padrão",
+      "price": 25.00,
+      "estimated_days": "7-10 dias úteis"
+    },
+    {
+      "id": 2,
+      "name": "Entrega Expressa",
+      "price": 45.00,
+      "estimated_days": "3-5 dias úteis"
+    }
+  ],
+  "payment_methods": [
+    {
+      "id": 1,
+      "name": "Cartão de Crédito",
+      "icon": "credit-card",
+      "installments": true
+    },
+    {
+      "id": 2,
+      "name": "PIX",
+      "icon": "pix",
+      "installments": false
+    },
+    {
+      "id": 3,
+      "name": "Boleto Bancário",
+      "icon": "barcode",
+      "installments": false
+    }
+  ]
+}
